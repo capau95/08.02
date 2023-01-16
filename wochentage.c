@@ -16,7 +16,7 @@ int main () {
 	printf("Geben Sie eine Ziffer von 1-7 für Ihren gewünschten Wochentag ein.\n");
 	scanf("%d", &ziffer);
 
-	if (ziffer < 8) {
+	if (ziffer < 8 && ziffer > 0) {
 
 		printf("Ihr Wochentag ist der %s.\n", wochentage[ziffer - 1]);
 
