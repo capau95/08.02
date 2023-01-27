@@ -4,14 +4,7 @@
 int main () {
 
 	int ziffer;
-	char* wochentage[7];
-	wochentage[0] = "Montag";
-	wochentage[1] = "Dienstag";
-	wochentage[2] = "Mittwoch";
-	wochentage[3] = "Donnerstag";
-	wochentage[4] = "Freitag";
-	wochentage[5] = "Samstag";
-	wochentage[6] = "Sonntag";
+	char* wochentage[7] = {"Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"};
 
 	printf("Geben Sie eine Ziffer von 1-7 für Ihren gewünschten Wochentag ein.\n");
 	scanf("%d", &ziffer);
